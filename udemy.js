@@ -154,20 +154,19 @@ let names = ['mario', 'luigi', 'toad'];
 
 // Type conversion
 
-let score = '100';
+// let score = '100';
 
-score = Number(score);
+// score = Number(score);
 
-// console.log(score + 1);
-// console.log(typeof score);
+// // console.log(score + 1);
+// // console.log(typeof score);
 
-// let result = Number('hello');
+// // let result = Number('hello');
 
-let result = String(50);
+// let result = String(50);
 
-console.log(result, typeof result);
+// console.log(result, typeof result);
 
-
-
+// For loops
 
 
