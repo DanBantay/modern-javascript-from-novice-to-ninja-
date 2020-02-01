@@ -74,9 +74,9 @@
 
 // template strings or template literal
 
-const title = 'Best reads of 2019';
-const author = 'Stephen King';
-const likes = 1000;
+// const title = 'Best reads of 2019';
+// const author = 'Stephen King';
+// const likes = 1000;
 
 // concatenation way
 // const result =
@@ -126,9 +126,9 @@ const likes = 1000;
 // booleans & comparisons
 // console.log(true, false, 'true', 'false');
 
-// methods can return booleans
-let email = 'dbantayjr@gmail.com';
-let names = ['mario', 'luigi', 'toad'];
+// // methods can return booleans
+// let email = 'dbantayjr@gmail.com';
+// let names = ['mario', 'luigi', 'toad'];
 // let result = email.includes('@');
 // let result = names.includes('bowser');
 
@@ -168,5 +168,35 @@ let names = ['mario', 'luigi', 'toad'];
 // console.log(result, typeof result);
 
 // For loops
+// 1. initialization variable
+// 2. condition its going to evaluate if its true or false, if true it executes the code in the code block, if false it stops
+// 3. final expression , its going to excute at the end of the code block, take i and add 1 to it. 
+// for(let i = 0; i < 5; i++) {
+//     console.log('in loop:', i);
+// }
+// console.log('loop finished');
 
+// one cycle throught the code block is called an iteration
+// i starts off at 0 then checks if its less than the array length if true logs out dan, then adds 1 then i is now 1 checks if its less than array length if true log out 1 which is mario then keeps runing/logging until its no longer true.
+// const names = ['dan', 'mario', 'luigi']
 
+// for(let i = 0; i < names.length; i++) {
+//     // console.log(names[i]);
+//     let html = `<div>${names[i]}</div>`
+//     console.log(html);
+// }
+
+// While loops
+// const names = ['dan', 'mario', 'luigi'];
+// // let i = 0;
+// // while(i < 5) {
+// //     console.log('in loop:', i);
+// //     i++;
+// // }
+
+// let i = 0;
+
+// while(i < names.length) {
+//     console.log(names[i]);
+//     i++;
+// }
