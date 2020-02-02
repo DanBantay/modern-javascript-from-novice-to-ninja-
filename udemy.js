@@ -202,8 +202,27 @@
 // }
 
 // Do while loops
+// let i = 5;
+// do {
+//     console.log('val of i:', i)
+// } while(i < 5);
 
-let i = 5;
-do {
-    console.log('val of i:', i)
-} while(i < 5);
+// If statements
+// const age = 25;
+// if(age > 20) {
+//     console.log('you are over 20 years old');
+// }
+
+// const ninjas = ['dan', 'ryu', 'akira', 'ken'];
+
+// if(ninjas.length > 4) {
+//     console.log("thats a lot of ninjas");
+// }
+//if-else if the statement is true it fires the if code block, if its not true it fires the else statement
+
+const password = 'p@ss';
+if(password.length >= 8) {
+    console.log('that password is long enough');
+} else {
+    console.log('password is not long enough!');
+}
