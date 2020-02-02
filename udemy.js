@@ -200,3 +200,10 @@
 //     console.log(names[i]);
 //     i++;
 // }
+
+// Do while loops
+
+let i = 5;
+do {
+    console.log('val of i:', i)
+} while(i < 5);
