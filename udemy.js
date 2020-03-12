@@ -222,12 +222,33 @@
 //never runs both code blocks its either one or the other
 // else if run the code block of if, if its false it runs else if. If thats false then it runs else.
 
-const password = 'p@ss';
+// const password = 'p@sss';
+// //logica operators
+// if(password.length >= 12 && password.includes('@')) {
+//     console.log('that password is mighty strong!');
+// } else if(password.length >= 8 || password.includes('@') && password.length >= 5) {
+//     console.log('that password is long enough');
+// } else {
+//     console.log('password is not long enough!');
+// }
 
-if(password.length >= 12 && password.includes('@')) {
-    console.log('that password is mighty strong!');
-} else if(password.length >= 8 || password.includes('@')) {
-    console.log('that password is long enough');
-} else {
-    console.log('password is not long enough!');
+// // Logical not (!)
+// let user = false;
+
+// if(!user) {
+//     console.log('you must be logged on to continue');
+// }
+// console.log(!true);
+// console.log(!false);
+
+//Break and continue
+const scores = [50, 25, 0, 30, 100, 20 , 10];
+
+for(let i = 0; i < scores.length; i++) {
+    console.log('your score: ', scores[i]);
+
+    if(scores[i] === 100) {
+        console.log('congrats you got the top score');  
+        break;
+    }
 }
