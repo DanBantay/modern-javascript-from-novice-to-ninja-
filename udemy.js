@@ -219,9 +219,14 @@
 //     console.log("thats a lot of ninjas");
 // }
 //if-else if the statement is true it fires the if code block, if its not true it fires the else statement
+//never runs both code blocks its either one or the other
+// else if run the code block of if, if its false it runs else if. If thats false then it runs else.
 
 const password = 'p@ss';
-if(password.length >= 8) {
+
+if(password.length >= 12 && password.includes('@')) {
+    console.log('that password is mighty strong!');
+} else if(password.length >= 8 || password.includes('@')) {
     console.log('that password is long enough');
 } else {
     console.log('password is not long enough!');
